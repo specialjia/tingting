@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{105b13fb-3169-483d-9af2-8994f66a78d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输入输出">
+      <UniqueIdentifier>{1b6a0ab1-f508-42c5-9fda-cf4e930af05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sale_item  暂定">
+      <UniqueIdentifier>{08e1ff8f-d435-40f1-ae2a-11bbda152541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="变量和基本类型">
+      <UniqueIdentifier>{58325551-d6a9-4178-8c4f-6c2cb03eeb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="字符串 向量和数据">
+      <UniqueIdentifier>{7bce3cdc-577d-4a8c-affa-5df5cd4735fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="表达式">
+      <UniqueIdentifier>{8d95a143-e4b1-4e4a-830f-ca818ea7d976}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\IO.cpp">
+      <Filter>输入输出</Filter>
+    </ClCompile>
+    <ClCompile Include="Sales\Sales_item.cpp">
+      <Filter>Sale_item  暂定</Filter>
+    </ClCompile>
+    <ClCompile Include="variable\variable.cpp">
+      <Filter>变量和基本类型</Filter>
+    </ClCompile>
+    <ClCompile Include="String\string.cpp">
+      <Filter>字符串 向量和数据</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression\Expression.cpp">
+      <Filter>表达式</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IO\IO.h">
+      <Filter>输入输出</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales\Sales_item.h">
+      <Filter>Sale_item  暂定</Filter>
+    </ClInclude>
+    <ClInclude Include="variable\variable.h">
+      <Filter>变量和基本类型</Filter>
+    </ClInclude>
+    <ClInclude Include="String\string.h">
+      <Filter>字符串 向量和数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression\Expressio.h">
+      <Filter>表达式</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

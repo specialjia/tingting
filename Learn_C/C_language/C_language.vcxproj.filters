@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="转义字符">
+      <UniqueIdentifier>{fb610657-7786-472e-9f4a-4467ce58a5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="命令行">
+      <UniqueIdentifier>{fd7b82ce-51cb-444e-89e4-352245420ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="指针">
+      <UniqueIdentifier>{0164cd3d-03dc-4a80-8733-dd6275161c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="计量单位转换">
+      <UniqueIdentifier>{b582444c-0505-4c87-a349-04b7a4e19363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="计量字符长度">
+      <UniqueIdentifier>{0f64331b-5b1c-454f-acd6-b15fc69fb52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="常量及预处理器">
+      <UniqueIdentifier>{870e9c29-dd6b-4166-8886-a7e8304604bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="明示常量">
+      <UniqueIdentifier>{45cab2d0-a110-4e69-98dc-f481223fd04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="printf用法">
+      <UniqueIdentifier>{d1b26a01-114a-46b7-a2fd-f12feddf9153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanf用法">
+      <UniqueIdentifier>{aceaaea2-8633-4dfe-b671-09e0bb2025c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基本运算符">
+      <UniqueIdentifier>{3313ae16-9773-41f5-9830-8f96825c6346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="类型转换">
+      <UniqueIdentifier>{81372589-9646-4db0-ba00-5078da06c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="while循环">
+      <UniqueIdentifier>{04bd673a-e6f2-40d4-8054-0b7541dd5886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="For循环">
+      <UniqueIdentifier>{5d60a8ae-32cf-43d3-b4d1-5344560747f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="逗号运算符">
+      <UniqueIdentifier>{0ef68255-df4e-4c43-bf6e-db2ba7e3cb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="do while循环">
+      <UniqueIdentifier>{f44361a9-9dbc-48c8-9bee-02d55a12a1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="if语句">
+      <UniqueIdentifier>{20b69392-1b18-4d23-936e-0242d829c594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="getchar 用法">
+      <UniqueIdentifier>{65226b24-e99a-4619-a53a-0066b0919d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="if else用法">
+      <UniqueIdentifier>{ccce1154-af8c-44d9-b8cf-96de57523bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%3f条件运算符  暂定">
+      <UniqueIdentifier>{df9189fc-ef80-46b3-b3c3-6cf6e47b3266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Continue  暂定">
+      <UniqueIdentifier>{18b0699a-17ed-4122-a4af-b0d9399a2ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Break">
+      <UniqueIdentifier>{1c0a8e82-0d02-41d5-bb77-204a83bc30a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="多重选择 Switch">
+      <UniqueIdentifier>{08cfe24f-7d37-4005-a788-43c9789e0a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="缓冲区">
+      <UniqueIdentifier>{8bd87d0c-2513-4f39-89e3-48b39ec946f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="暂定 混合数值和字符输入 getchar和scanf">
+      <UniqueIdentifier>{d2199551-9f1d-44b2-abd2-a208687c1fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="复习函数 暂定递归">
+      <UniqueIdentifier>{d650916c-0339-4c35-96a9-dfe5851a5e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数组">
+      <UniqueIdentifier>{aa8559f6-b846-492a-9943-b1096d4b809d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="字符串及字符串函数">
+      <UniqueIdentifier>{300b5eee-c5ae-4483-88f7-6da2f1982ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="存储类别 链接 内存管理">
+      <UniqueIdentifier>{2421c9c0-b7f6-418d-833f-b357abbc89cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件输入 输出">
+      <UniqueIdentifier>{158a31f1-580b-486b-8f90-9e800e8577a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="结构和其他数据形式">
+      <UniqueIdentifier>{873828a9-893f-478c-8e83-3106621dba15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="枚举">
+      <UniqueIdentifier>{3520453a-0b3a-44eb-8e44-a1343d28b0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="位操作">
+      <UniqueIdentifier>{90693910-1c31-4340-90cb-55242f5a360b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C预处理器及C库">
+      <UniqueIdentifier>{0407efdc-45e2-401a-8a8a-21252a154a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据表示">
+      <UniqueIdentifier>{edb27ae4-1b95-45f2-b9e1-a9224d9d91af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="escape\escape.c">
+      <Filter>转义字符</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdline\cmdline.c">
+      <Filter>命令行</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer\Pointer.c">
+      <Filter>指针</Filter>
+    </ClCompile>
+    <ClCompile Include="FeetInFathoms\FeetInFathoms.c">
+      <Filter>计量单位转换</Filter>
+    </ClCompile>
+    <ClCompile Include="Strlen\Strlen.c">
+      <Filter>计量字符长度</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantPreprocessor\ConstantPreprocessor.c">
+      <Filter>常量及预处理器</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplicitConstant\ExplicitConstant.c">
+      <Filter>明示常量</Filter>
+    </ClCompile>
+    <ClCompile Include="Printf\Printf.c">
+      <Filter>printf用法</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanf\Scanf.c">
+      <Filter>Scanf用法</Filter>
+    </ClCompile>
+    <ClCompile Include="circulate\circulate.c">
+      <Filter>while循环</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator\Operator.c">
+      <Filter>基本运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeConversion\TypeConversion.c">
+      <Filter>类型转换</Filter>
+    </ClCompile>
+    <ClCompile Include="ForLoop\ForLoop.c">
+      <Filter>For循环</Filter>
+    </ClCompile>
+    <ClCompile Include="comma\comma.c">
+      <Filter>逗号运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="Do while\do while.c">
+      <Filter>do while循环</Filter>
+    </ClCompile>
+    <ClCompile Include="If\If.c">
+      <Filter>if语句</Filter>
+    </ClCompile>
+    <ClCompile Include="getchar\getchar.c">
+      <Filter>getchar 用法</Filter>
+    </ClCompile>
+    <ClCompile Include="If else\If else.c">
+      <Filter>if else用法</Filter>
+    </ClCompile>
+    <ClCompile Include="运算符\运算符.c">
+      <Filter>%3f条件运算符  暂定</Filter>
+    </ClCompile>
+    <ClCompile Include="Continue\continue.c">
+      <Filter>Continue  暂定</Filter>
+    </ClCompile>
+    <ClCompile Include="Break\Break.c">
+      <Filter>Break</Filter>
+    </ClCompile>
+    <ClCompile Include="switch\switch.c">
+      <Filter>多重选择 Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer\buffer.c">
+      <Filter>缓冲区</Filter>
+    </ClCompile>
+    <ClCompile Include="混合数值和字符输入\input.c">
+      <Filter>暂定 混合数值和字符输入 getchar和scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewFunction\review.c">
+      <Filter>复习函数 暂定递归</Filter>
+    </ClCompile>
+    <ClCompile Include="digit group\digit group.c">
+      <Filter>数组</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterString\CharacterString.c">
+      <Filter>字符串及字符串函数</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageClass\StorageClass.c">
+      <Filter>存储类别 链接 内存管理</Filter>
+    </ClCompile>
+    <ClCompile Include="File\file.c">
+      <Filter>文件输入 输出</Filter>
+    </ClCompile>
+    <ClCompile Include="structure\structure.c">
+      <Filter>结构和其他数据形式</Filter>
+    </ClCompile>
+    <ClCompile Include="Enumerated\enumerated.c">
+      <Filter>枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="Bit\bit.c">
+      <Filter>位操作</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocessor\Preprocessor.c">
+      <Filter>C预处理器及C库</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data.c">
+      <Filter>数据表示</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="escape\escape.h">
+      <Filter>转义字符</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdline\cmdline.h">
+      <Filter>命令行</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointer\Pointer.h">
+      <Filter>指针</Filter>
+    </ClInclude>
+    <ClInclude Include="FeetInFathoms\FeetInFathoms.h">
+      <Filter>计量单位转换</Filter>
+    </ClInclude>
+    <ClInclude Include="Strlen\Strlen.h">
+      <Filter>计量字符长度</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantPreprocessor\ConstantPreprocessor.h">
+      <Filter>常量及预处理器</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplicitConstant\ExplicitConstant.h">
+      <Filter>明示常量</Filter>
+    </ClInclude>
+    <ClInclude Include="Printf\Printf.h">
+      <Filter>printf用法</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanf\Scanf.h">
+      <Filter>Scanf用法</Filter>
+    </ClInclude>
+    <ClInclude Include="circulate\circulate.h">
+      <Filter>while循环</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator\Operator.h">
+      <Filter>基本运算符</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeConversion\TypeConversion.h">
+      <Filter>类型转换</Filter>
+    </ClInclude>
+    <ClInclude Include="ForLoop\ForLoop.h">
+      <Filter>For循环</Filter>
+    </ClInclude>
+    <ClInclude Include="comma\comma.h">
+      <Filter>逗号运算符</Filter>
+    </ClInclude>
+    <ClInclude Include="Do while\do while.h">
+      <Filter>do while循环</Filter>
+    </ClInclude>
+    <ClInclude Include="If\If.h">
+      <Filter>if语句</Filter>
+    </ClInclude>
+    <ClInclude Include="getchar\getchar.h">
+      <Filter>getchar 用法</Filter>
+    </ClInclude>
+    <ClInclude Include="If else\If else.h">
+      <Filter>if else用法</Filter>
+    </ClInclude>
+    <ClInclude Include="运算符\运算符.h">
+      <Filter>%3f条件运算符  暂定</Filter>
+    </ClInclude>
+    <ClInclude Include="Continue\continue.h">
+      <Filter>Continue  暂定</Filter>
+    </ClInclude>
+    <ClInclude Include="Break\Break.h">
+      <Filter>Break</Filter>
+    </ClInclude>
+    <ClInclude Include="switch\switch.h">
+      <Filter>多重选择 Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer\buffer.h">
+      <Filter>缓冲区</Filter>
+    </ClInclude>
+    <ClInclude Include="混合数值和字符输入\input.h">
+      <Filter>暂定 混合数值和字符输入 getchar和scanf</Filter>
+    </ClInclude>
+    <ClInclude Include="ReviewFunction\review.h">
+      <Filter>复习函数 暂定递归</Filter>
+    </ClInclude>
+    <ClInclude Include="digit group\digit group.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterString\CharacterString.h">
+      <Filter>字符串及字符串函数</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageClass\StorageClass.h">
+      <Filter>存储类别 链接 内存管理</Filter>
+    </ClInclude>
+    <ClInclude Include="File\file.h">
+      <Filter>文件输入 输出</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\structure.h">
+      <Filter>结构和其他数据形式</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerated\enumerate.h">
+      <Filter>枚举</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit\bit.h">
+      <Filter>位操作</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocessor\Preprocessor.h">
+      <Filter>C预处理器及C库</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data.h">
+      <Filter>数据表示</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
