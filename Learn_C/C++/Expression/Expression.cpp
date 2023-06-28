@@ -92,3 +92,6 @@ int vowel_cnt()
 		<< "Total number of vowels: \t" << vowelTotal << '\n';
 	return 0;
 }
+
+void gitTest()
+{}
