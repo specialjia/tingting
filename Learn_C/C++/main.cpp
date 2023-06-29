@@ -39,7 +39,10 @@ int main()
 	//test_vector2();
 	//test_grade();
 	//grade_test();
-	vowel_cnt();
+	//vowel_cnt();
+	//DoWhile_test();
+	try_test();
+	try_test2();
 
 
 
