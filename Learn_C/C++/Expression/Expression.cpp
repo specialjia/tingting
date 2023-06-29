@@ -10,6 +10,7 @@ using std::cin;
 using std::cout; using std::endl;
 using std::string;
 using std::vector;
+using std::runtime_error;
 int grade_test()
 {
 	const vector<string> scores = {"F","D","C","B","A","A++"};
@@ -93,5 +94,68 @@ int vowel_cnt()
 	return 0;
 }
 
-void gitTest()
-{}
+int DoWhile_test()
+{
+	string rsp;
+	do
+	{
+		cout << "please enter two values: ";
+		int val1 = 0, val2 = 0;
+		cin >> val1 >> val2;
+		cout << "The sum of " << val1 << " and " << val2 << " = " << val1 + val2 << "\n\n" << "More? Enter yes or no: ";
+		cin >> rsp;
+	} while (!rsp.empty() && rsp[0] != 'n');
+	return 0;
+}
+
+int try_test()  //异常处理,从标准输入读取两个整数,输出第一个数除以第二个数的结果
+{
+	int num1, num2;
+	cout << "Please enter your first number : " << endl;
+	cin >> num1;
+	cout << "Please enter next number: " << endl;
+	cin >> num2;
+	if (num2 != 0)
+	{
+		double result = static_cast<double>(num1) / num2;
+		cout << result;
+	}
+	else
+		cout << "输入错误,被除数不能为0! ";
+	return 0;
+}
+
+int try_test2()
+{
+	int num1, num2;
+	bool isValidInput = false;
+	do
+	{
+		try
+		{
+			cout << "Please enter your first number : " << endl;
+			cin >> num1;
+			cout << "Please enter next number: " << endl;
+			cin >> num2;
+			if (num2 == 0)
+			{
+				throw runtime_error("被除数不能为0!");
+			}
+			double result = static_cast<double>(num1) / num2;
+			cout << result;
+			isValidInput = true;  // 输入有效，退出循环
+		}
+		catch (const std::exception& e)
+		{
+			std::cout << "错误提示：" << e.what() << std::endl;
+			std::cout << "是否重新输入新数？(y/n): ";
+			char response;
+			std::cin >> response;
+			if(response != 'y' && response != 'Y')
+			{
+				break;  // 不重新输入，退出循环
+			}
+		}
+	} while (!isValidInput);
+	return 0;
+}
